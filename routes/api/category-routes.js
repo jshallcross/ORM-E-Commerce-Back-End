@@ -58,7 +58,7 @@ router.delete('/:id', (req, res) => {
         id: req.params.id
       }
   }).then((dbCategory) => {
-      res.json(dbCategory);
+      res.json(d)
   });
 });
 
